@@ -106,7 +106,7 @@ main {
         }
     }
     .bacimg {
-        background-image: url(/img/Zbackground.png);
+        background-image: url("/img/Zbackground.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -213,7 +213,7 @@ main {
     .section3 {
         width: 100%;
         height: 500px;
-        background-image: url(/img/3background.png);
+        background-image: url( "/img/3background.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
