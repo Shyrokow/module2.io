@@ -67,6 +67,11 @@ header nav .absolutecontainer .burgercontainer .burger {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+@media (max-width: 769px) {
+  header nav .absolutecontainer .burgercontainer .burger {
+    margin-left: -48px;
+  }
+}
 header nav .absolutecontainer .burgercontainer .burger:before {
   content: " ";
   position: absolute;
@@ -79,6 +84,16 @@ header nav .absolutecontainer .burgercontainer .burger:before {
   margin-left: -2px;
   -webkit-transform: translate(-50%, -250%);
           transform: translate(-50%, -250%);
+}
+@media (max-width: 769px) {
+  header nav .absolutecontainer .burgercontainer .burger:before {
+    margin-left: -48px;
+  }
+}
+@media (max-width: 769px) {
+  header nav .absolutecontainer .burgercontainer .burger:before {
+    margin-left: -2px;
+  }
 }
 header nav .absolutecontainer .burgercontainer .burger:after {
   content: " ";
@@ -93,6 +108,16 @@ header nav .absolutecontainer .burgercontainer .burger:after {
   -webkit-transform: translate(-50%, 150%);
           transform: translate(-50%, 150%);
 }
+@media (max-width: 769px) {
+  header nav .absolutecontainer .burgercontainer .burger:after {
+    margin-left: -48px;
+  }
+}
+@media (max-width: 769px) {
+  header nav .absolutecontainer .burgercontainer .burger:after {
+    margin-left: -2px;
+  }
+}
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,6 +131,11 @@ header nav ul li {
 header nav ul li a {
   color: white;
   text-decoration: none;
+}
+@media (max-width: 769px) {
+  header nav ul li:not(:last-child) {
+    display: none;
+  }
 }
 
 main .section1 {
@@ -127,7 +157,7 @@ main .section1 .container h1 {
   font-weight: 700;
 }
 main .bacimg {
-  background-image: url("/img/Zbackground.png");
+  background-image: url("../img/back1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,6 +167,11 @@ main .section2 {
   height: 1500px;
   background-color: white;
   position: relative;
+}
+@media (max-width: 426px) {
+  main .section2 {
+    height: 2200px;
+  }
 }
 main .section2 .textcontainetsec2 {
   position: absolute;
@@ -165,6 +200,11 @@ main .section2 .piccontainersec2 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 {
+    top: 45%;
+  }
+}
 main .section2 .piccontainersec2 .containerofpic {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +213,16 @@ main .section2 .piccontainersec2 .containerofpic {
   height: 60%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  main .section2 .piccontainersec2 .containerofpic {
+    width: 100%;
+  }
+}
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 .containerofpic {
+    padding-bottom: 245px;
+  }
 }
 main .section2 .piccontainersec2 .containerofpic .pic1 {
   padding: 2%;
@@ -198,6 +248,12 @@ main .section2 .piccontainersec2 .containerofpic .pic3 {
   width: 45%;
   height: 45%;
 }
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 .containerofpic .pic3 {
+    width: 95%;
+    height: 45%;
+  }
+}
 main .section2 .piccontainersec2 .containerofpic .pic3 img {
   width: 100%;
   height: 100%;
@@ -214,6 +270,12 @@ main .section2 .piccontainersec2 .containerofpic .pic4 {
   width: 45%;
   height: 45%;
 }
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 .containerofpic .pic4 {
+    width: 95%;
+    height: 45%;
+  }
+}
 main .section2 .piccontainersec2 .containerofpic .pic4 img {
   width: 100%;
   height: 100%;
@@ -229,6 +291,13 @@ main .section2 .piccontainersec2 .pic2 {
   width: 30%;
   height: 60%;
 }
+@media (max-width: 1025px) {
+  main .section2 .piccontainersec2 .pic2 {
+    padding: 1%;
+    width: 95%;
+    height: 25%;
+  }
+}
 main .section2 .piccontainersec2 .pic2 img {
   width: 100%;
   height: 100%;
@@ -237,6 +306,12 @@ main .section2 .piccontainersec2 .pic2 img {
   -o-object-position: center;
      object-position: center;
 }
+@media (max-width: 1025px) {
+  main .section2 .piccontainersec2 .pic2 img {
+    -o-object-position: top;
+       object-position: top;
+  }
+}
 main .section2 .piccontainersec2 .pic5 {
   padding: 2%;
   display: -webkit-box;
@@ -244,6 +319,12 @@ main .section2 .piccontainersec2 .pic5 {
   display: flex;
   width: 25%;
   height: 25%;
+}
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 .pic5 {
+    width: 95%;
+    height: 25%;
+  }
 }
 main .section2 .piccontainersec2 .pic5 img {
   width: 100%;
@@ -261,6 +342,12 @@ main .section2 .piccontainersec2 .pic6 {
   width: 65%;
   height: 25%;
 }
+@media (max-width: 426px) {
+  main .section2 .piccontainersec2 .pic6 {
+    width: 95%;
+    height: 25%;
+  }
+}
 main .section2 .piccontainersec2 .pic6 img {
   width: 100%;
   height: 100%;
@@ -271,8 +358,8 @@ main .section2 .piccontainersec2 .pic6 img {
 }
 main .section3 {
   width: 100%;
-  height: 500px;
-  background-image: url("/img/3background.png");
+  height: 800px;
+  background-image: url("../img/3background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -285,22 +372,32 @@ main .section3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+@media (max-width: 769px) {
+  main .section3 {
+    height: 1000px;
+  }
+}
+@media (max-width: 495px) {
+  main .section3 {
+    height: 1400px;
+  }
 }
 main .section3 .containersec3text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  margin: 0 auto;
+  width: 80%;
 }
 main .section3 .containersec3text p {
   margin: auto;
-  font-size: 18px;
+  font-size: 24px;
   color: white;
 }
 main .section3 .containersec3text:nth-child(1) {
+  padding-top: 100px;
   padding-bottom: 2%;
 }
 main .section3 .containersec3text:nth-child(1) h2 {
@@ -310,6 +407,7 @@ main .section3 .containersec3text:nth-child(1) h2 {
   font-weight: 700;
 }
 main .section3 .logos {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,8 +415,22 @@ main .section3 .logos {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 5%;
-  width: 100%;
-  height: 20%;
+  width: 85%;
+  height: 40%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .section3 .logos .logobox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+main .section3 .logos .logobox img {
+  margin: auto;
 }
 
 footer {
@@ -329,6 +441,21 @@ footer {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 1057px) {
+  footer {
+    height: 800px;
+  }
+}
+@media (max-width: 505px) {
+  footer {
+    height: 1000px;
+  }
 }
 footer .containerimgfooter {
   display: -webkit-box;
@@ -338,7 +465,7 @@ footer .containerimgfooter {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100px;
-  padding-top: 10%;
+  padding-top: 150px;
 }
 footer .containerimgfooter a img {
   margin-top: 12.5px;
@@ -353,7 +480,7 @@ footer .containertextfooter {
       -ms-flex-pack: center;
           justify-content: center;
   width: 400px;
-  padding-top: 7%;
+  padding-top: 100px;
 }
 footer .containertextfooter .containerboxfooter {
   display: -webkit-box;
@@ -374,10 +501,11 @@ footer .footerinfo {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 60%;
+  width: auto;
   height: auto;
 }
 footer .footerinfo article {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,14 +514,16 @@ footer .footerinfo article {
           justify-content: left;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 40%;
+  width: 33.3%;
+  height: 400px;
+  text-align: center;
 }
 footer .footerinfo article h3 {
-  margin-top: 50%;
+  margin-top: 140px;
   width: 100%;
 }
 footer .footerinfo article p {
-  margin-bottom: 50%;
+  margin-bottom: 140px;
   width: 100%;
 }
 footer .footerinfo article p a {
@@ -405,11 +535,13 @@ footer .copyrightbottom {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: 10px;
 }
 footer .contactemail {
   position: absolute;
   top: 95%;
-  left: 90%;
+  left: 85%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: 10px;
 }
